@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AgregarEntradaActivity"
+    style="@style/MiLinearLayoutPrincipalEstilo">
+
+    <EditText
+        android:id="@+id/artistaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artista"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        style="@style/MiEditTextEstilo" />
+
+    <EditText
+        android:id="@+id/albumEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Álbum"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        style="@style/MiEditTextEstilo" />
+
+    <EditText
+        android:id="@+id/numeroCancionesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Canciones"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        style="@style/MiEditTextEstilo" />
+
+    <Button
+        android:id="@+id/guardarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        style="@style/MiBotonEstilo" />
+
+</LinearLayout>
